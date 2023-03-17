@@ -1,18 +1,19 @@
 #include <stdio.h>
 
 /**
- * main - Prints the numbers.
+ * main - Prints all single digit numbers followed by a new line.
  *
  * Return: Always 0.
  */
 int main(void)
 {
-	int x;
+	int n;
 
-	for (x = 0; x < 10; x++)
-		printf("%d", x);
-
-	printf('\n');
+	for (n = 0; n < 10; n++)
+	{
+		printf("%d", n);
+	}
+	printf("\n");
 
 	return (0);
 }
