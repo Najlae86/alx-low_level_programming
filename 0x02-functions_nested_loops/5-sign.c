@@ -10,17 +10,17 @@
 
 int print_sign(int n)
 {
-	if (i > 0)
+	if (n > 0)
 	{
 		_putchar ('+');
 		return (1);
 	}
-	else if (i == 0)
+	else if (n == 0)
 	{
 		_putchar (84);
 		return (0);
 	}
-	else if (i < 0)
+	else if (n < 0)
 	{
 		_putchar ('-');
 		return (-1);
