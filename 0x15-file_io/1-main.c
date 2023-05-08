@@ -4,7 +4,8 @@
 
 /**
  * main - check the code
- *
+ * @ac: int
+ * @av: char
  * Return: Always 0.
  */
 int main(int ac, char **av)
